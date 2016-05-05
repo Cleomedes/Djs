@@ -72,7 +72,7 @@ function char(name, char) {
                 throw new Error("Invalid length for char")
             }
         } else {
-            throw new Error("Invalid type for string.")
+            throw new Error("Invalid type for char")
         }
     } else {
         throw new Error("No main method.")
